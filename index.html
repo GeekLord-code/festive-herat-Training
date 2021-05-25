@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, intial-scale=1.0">
+      <meta name="author" content="Promise Lebeya">
+      <link rel="stylesheet" href="style.css">
+      <title>Creatives Landing Page</title>
+    </head>
+    <body>
+      <section class="showcase">
+        <header>
+          <h1 class="logo">ART</h1>
+          <div class="toggle"></div>
+        </header>
+
+      <video src="creative.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+          <h2>Never Stop</h2>
+          <h3>Creating on EARTH!</h3>
+          <p><b>Art is great.Art is great.Art is great.Art is great.Art is great.Art is great.Art is great.
+          Art is great.Art is great.Art is great.Art is great.Art is great.Art is great.Art is great.</b></p>
+          <a href="#" style="margin-left: 200px">Create</a>
+        </div>
+
+        <ul class="fields">
+          <li><a href="#"><img style="width:20px; border-radius: 50%;" src="fbicon.png" alt=""></a></li>
+          <li><a href="#"><img style="width:20px; border-radius:50%;" src="insta.png" alt=""></a></li>
+          <li><a href="#"><img style="width:20px; border-radius:50%;" src="email.jpg" alt=""></a></li>
+        </ul>
+      </section>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</li>
+          <li><a href="#">Contact</li>
+          <li><a href="#">Blog</li>
+        </ul>
+      </div>
+
+      <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEveentListener('click', function(){
+          menuToggle.classList.toggle('active');
+          mshowcase.classList.toggle('active');
+        });
+    </script>
+    </body>
+</html>
